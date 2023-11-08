@@ -21,7 +21,7 @@ import {
   Notes,
 } from '../models';
 import {CategoriesRepository, NotesRepository} from '../repositories';
-
+// some change in git
 export class CategoriesNotesController {
   constructor(
     @repository(CategoriesRepository) protected categoriesRepository: CategoriesRepository,
